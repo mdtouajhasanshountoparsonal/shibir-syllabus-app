@@ -643,7 +643,7 @@ class _MemorizationPracticeScreenState
                     item.arabic,
                     textAlign: TextAlign.center,
                     style: const TextStyle(
-                        fontSize: 26, height: 2.1, color: Colors.white),
+                        fontSize: 28, height: 2.4, fontFamily: 'Amiri', color: Colors.white),
                   ),
                 if (item.transliteration.isNotEmpty) ...[
                   const SizedBox(height: 18),

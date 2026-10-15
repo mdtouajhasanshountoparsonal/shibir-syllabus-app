@@ -10,7 +10,7 @@ class QuranLearningHome extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(18),
         children: const [
-          Text('ডেটা লোড হচ্ছে...', style: TextStyle(fontSize: 16)),
+          Text('ডেটা লোড হচ্ছে... (data from quran-learning) ', style: TextStyle(fontSize: 16)),
         ],
       ),
     );
