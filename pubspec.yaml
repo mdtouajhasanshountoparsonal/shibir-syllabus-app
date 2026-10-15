@@ -1,0 +1,48 @@
+name: shibir_syllabus_tracker
+description: Offline-first Islamic study & syllabus management app with GitHub-hosted content.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.4
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.0
+  pdfrx: ^2.4.8
+  just_audio: ^0.9.42
+  audio_session: ^0.1.21
+  share_plus: ^10.1.2
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: NotoSansBengali
+      fonts:
+        - asset: assets/fonts/NotoSansBengali-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/NotoSansBengali-Bold.ttf
+          weight: 700
+  assets:
+    - assets/content/manifest.json
+    - assets/content/stages.json
+    - assets/content/books.json
+    - assets/content/memorization.json
+    - assets/content/quran_learning.json
+    - assets/content/quizzes.json
+    - assets/content/schedule.json
+    - assets/content/programs.json

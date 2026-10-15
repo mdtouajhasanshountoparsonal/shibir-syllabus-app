@@ -1,0 +1,42 @@
+{
+  "programs": [
+    {
+      "id": "kormi",
+      "title": "কর্মী সিলেবাস",
+      "subtitle": "প্রাথমিক পর্যায়",
+      "heading": "কর্মী পাঠ মূল্যায়ন পরীক্ষার সিলেবাস ২০২৬",
+      "description": "শুদ্ধ তিলাওয়াত, অর্থসহ মুখস্থ, তাজবিদ, হাদিস, ইসলামী জীবনাদর্শ, আন্দোলন, মাসআলা-মাসায়েল ও ক্যারিয়ার দক্ষতা।",
+      "colorValue": 4289925679,
+      "sourceUrl": "https://shibircloud.com/pdf/kormider_path_mulyayon_o_odhoyon_syllabus_2026.pdf",
+      "stageIds": [
+        "kormi-quran",
+        "kormi-hadith",
+        "kormi-jibonadarsho",
+        "kormi-andolon",
+        "kormi-masael",
+        "kormi-career",
+        "kormi-bibidho"
+      ]
+    },
+    {
+      "id": "sathi",
+      "title": "সাথী সিলেবাস",
+      "subtitle": "মাধ্যমিক পর্যায়",
+      "heading": "সাথী পাঠ মূল্যায়ন পরীক্ষার সিলেবাস",
+      "description": "সাথী পর্যায়ের সিলেবাস শীঘ্রই যুক্ত করা হবে।",
+      "colorValue": 4280246184,
+      "sourceUrl": "",
+      "stageIds": []
+    },
+    {
+      "id": "sodosso",
+      "title": "সদস্য সিলেবাস",
+      "subtitle": "উচ্চ পর্যায়",
+      "heading": "সদস্য পাঠ মূল্যায়ন পরীক্ষার সিলেবাস",
+      "description": "সদস্য পর্যায়ের সিলেবাস শীঘ্রই যুক্ত করা হবে।",
+      "colorValue": 4284170152,
+      "sourceUrl": "",
+      "stageIds": []
+    }
+  ]
+}

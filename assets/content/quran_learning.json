@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "letters": [
+    {
+      "id": "alif",
+      "arabic": "ا",
+      "nameBn": "আলিফ",
+      "nameEn": "Alif",
+      "pronunciationUrl": "https://cdn.example.com/alif.mp3",
+      "forms": ["ا", "ا", "ـا", "ا"],
+      "similarLetters": ["ا"]
+    },
+    {
+      "id": "ba",
+      "arabic": "ب",
+      "nameBn": "বা",
+      "nameEn": "Ba",
+      "pronunciationUrl": "https://cdn.example.com/ba.mp3",
+      "forms": ["بـ", "ـبـ", "ـب", "ب"],
+      "similarLetters": ["ت", "ث", "ن"]
+    },
+    {
+      "id": "ta",
+      "arabic": "ت",
+      "nameBn": "তা",
+      "nameEn": "Ta",
+      "pronunciationUrl": "https://cdn.example.com/ta.mp3",
+      "forms": ["تـ", "ـتـ", "ـت", "ت"],
+      "similarLetters": ["ب", "ث", "ن"]
+    },
+    {
+      "id": "tha",
+      "arabic": "ث",
+      "nameBn": "ছা",
+      "nameEn": "Tha",
+      "pronunciationUrl": "https://cdn.example.com/tha.mp3",
+      "forms": ["ثـ", "ـثـ", "ـث", "ث"],
+      "similarLetters": ["ب", "ت", "ن"]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "level01",
+      "titleBn": "Level 01 — আরবি হরফ পরিচিতি",
+      "level": "beginner",
+      "descriptionBn": "ا থেকে ي পর্যন্ত হরফ চেনা, নাম, আকৃতি ও উচ্চারণ",
+      "letterIds": ["alif", "ba", "ta", "tha"],
+      "icon": "abc"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Copy this file to android/key.properties and fill in your own values to
+# sign release builds with your own keystore. The file is git-ignored.
+#
+#   keytool -genkey -v -keystore ~/shibir-release.jks \
+#     -keyalg RSA -keysize 2048 -validity 10000 -alias shibir
+#
+storePassword=your-store-password
+keyPassword=your-key-password
+keyAlias=shibir
+storeFile=/absolute/path/to/shibir-release.jks

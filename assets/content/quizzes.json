@@ -1,0 +1,132 @@
+{
+  "quizzes": [
+    {
+      "id": "q_quran_fatiha_ayah",
+      "question": "সূরা আল-ফাতিহায় কতটি আয়াত আছে?",
+      "options": ["৫টি", "৬টি", "৭টি", "৮টি"],
+      "correctIndex": 2,
+      "explanation": "সূরা আল-ফাতিহায় মোট ৭টি আয়াত আছে।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_ikhlas_ayah",
+      "question": "সূরা আল-ইখলাসে কতটি আয়াত আছে?",
+      "options": ["৩টি", "৪টি", "৫টি", "৬টি"],
+      "correctIndex": 1,
+      "explanation": "সূরা আল-ইখলাসে ৪টি আয়াত আছে।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_ikhlas_topic",
+      "question": "সূরা আল-ইখলাস মূলত কোন বিষয়ে আলোচনা করে?",
+      "options": ["নামাজের নিয়ম", "আল্লাহর একত্ব (তাওহীদ)", "রোজার বিধান", "হজের আহকাম"],
+      "correctIndex": 1,
+      "explanation": "সূরা আল-ইখলাস আল্লাহর একত্ব ও অদ্বিতীয়তা বর্ণনা করে।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_asr_ayah",
+      "question": "সূরা আল-আসরে কতটি আয়াত আছে?",
+      "options": ["২টি", "৩টি", "৪টি", "৫টি"],
+      "correctIndex": 1,
+      "explanation": "সূরা আল-আসরে ৩টি আয়াত আছে।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_asr_meaning",
+      "question": "‘وَالْعَصْرِ’ (ওয়াল আসর) শব্দের অর্থ কী?",
+      "options": ["কসম সকালের", "কসম যুগের/সময়ের", "কসম রাতের", "কসম চাঁদের"],
+      "correctIndex": 1,
+      "explanation": "‘ওয়াল আসর’ অর্থ হলো — কসম যুগের বা সময়ের।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_shortest",
+      "question": "কুরআনের সবচেয়ে ছোট সূরা কোনটি (আয়াত সংখ্যায়)?",
+      "options": ["সূরা আল-ইখলাস", "সূরা আল-কাউসার", "সূরা আন-নাস", "সূরা আল-আসর"],
+      "correctIndex": 1,
+      "explanation": "সূরা আল-কাউসার ৩টি আয়াতের — আয়াত সংখ্যায় সবচেয়ে ছোট সূরা।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_fil",
+      "question": "সূরা আল-ফীল-এ কোন ঘটনার কথা আছে?",
+      "options": ["হস্তীবাহিনীর ধ্বংস", "নূহের নৌকা", "মূসার সমুদ্র পার হওয়া", "ইউনুসের মাছের পেটে যাওয়া"],
+      "correctIndex": 0,
+      "explanation": "সূরা আল-ফীল কা'বাকে ধ্বংস করতে আসা হস্তীবাহিনীর পরাজয়ের ঘটনা বর্ণনা করে।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_quran_nas_position",
+      "question": "সূরা আন-নাস কুরআনের কততম সূরা?",
+      "options": ["১১০তম", "১১২তম", "১১৩তম", "১১৪তম (সর্বশেষ)"],
+      "correctIndex": 3,
+      "explanation": "সূরা আন-নাস কুরআনের সর্বশেষ তথা ১১৪তম সূরা।",
+      "stage": "kormi-quran"
+    },
+    {
+      "id": "q_hadith_rahe_amol",
+      "question": "‘রাহে আমল (১ম খণ্ড)’ গ্রন্থের রচয়িতা কে?",
+      "options": ["আল্লামা ইউসুফ ইসলাহী", "আল্লামা জলীল আহসান নদভী", "সাইয়েদ আবুল আ'লা মওদূদী", "আবুল আসাদ"],
+      "correctIndex": 1,
+      "explanation": "‘রাহে আমল’-এর রচয়িতা আল্লামা জলীল আহসান নদভী।",
+      "stage": "kormi-hadith"
+    },
+    {
+      "id": "q_jibon_iman",
+      "question": "‘ঈমানের হাকীকত’ গ্রন্থটি কে লিখেছেন?",
+      "options": ["সাইয়েদ আবুল আ'লা মওদূদী", "আহসান হাবীব ইমরোজ", "অধ্যাপক গোলাম আযম", "ইবনে মাসুম"],
+      "correctIndex": 0,
+      "explanation": "‘ঈমানের হাকীকত’-এর রচয়িতা সাইয়েদ আবুল আ'লা মওদূদী।",
+      "stage": "kormi-jibonadarsho"
+    },
+    {
+      "id": "q_jibon_pillars",
+      "question": "ইসলামের স্তম্ভ কতটি?",
+      "options": ["৩টি", "৪টি", "৫টি", "৬টি"],
+      "correctIndex": 2,
+      "explanation": "ইসলামের স্তম্ভ ৫টি — কালিমা, নামাজ, রোজা, হজ ও যাকাত।",
+      "stage": "kormi-jibonadarsho"
+    },
+    {
+      "id": "q_andolon_kormopoddhoti",
+      "question": "‘কর্মপদ্ধতি’ গ্রন্থটি কোন সংস্থার?",
+      "options": ["আইসিএস", "বিআইসিএস", "নতুন মাত্রা", "দাওয়াহ সার্কেল"],
+      "correctIndex": 1,
+      "explanation": "‘কর্মপদ্ধতি’ বিআইসিএস (বাংলাদেশ ইসলামী ছাত্রশিবির)-এর প্রকাশনা।",
+      "stage": "kormi-andolon"
+    },
+    {
+      "id": "q_masael_fajr",
+      "question": "ফজরের ফরজ নামাজ কত রাকাত?",
+      "options": ["২ রাকাত", "৩ রাকাত", "৪ রাকাত", "৫ রাকাত"],
+      "correctIndex": 0,
+      "explanation": "ফজরের ফরজ নামাজ ২ রাকাত।",
+      "stage": "kormi-masael"
+    },
+    {
+      "id": "q_masael_maghrib",
+      "question": "মাগরিবের ফরজ নামাজ কত রাকাত?",
+      "options": ["২ রাকাত", "৩ রাকাত", "৪ রাকাত", "৫ রাকাত"],
+      "correctIndex": 1,
+      "explanation": "মাগরিবের ফরজ নামাজ ৩ রাকাত।",
+      "stage": "kormi-masael"
+    },
+    {
+      "id": "q_masael_isha",
+      "question": "ইশার ফরজ নামাজ কত রাকাত?",
+      "options": ["২ রাকাত", "৩ রাকাত", "৪ রাকাত", "৬ রাকাত"],
+      "correctIndex": 2,
+      "explanation": "ইশার ফরজ নামাজ ৪ রাকাত।",
+      "stage": "kormi-masael"
+    },
+    {
+      "id": "q_quran_bakara_ruku",
+      "question": "কর্মী সিলেবাসে সূরা আল-বাকারার কোন অংশ পড়তে বলা হয়েছে?",
+      "options": ["শুধু ১ম রুকু", "১ম ও ২য় রুকু", "শেষ রুকু", "পুরো সূরা"],
+      "correctIndex": 1,
+      "explanation": "সিলেবাস অনুযায়ী সূরা আল-বাকারার ১ম ও ২য় রুকু পড়তে বলা হয়েছে।",
+      "stage": "kormi-quran"
+    }
+  ]
+}
