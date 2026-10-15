@@ -21,7 +21,7 @@ class ArabicTextCard extends StatelessWidget {
         style: const TextStyle(
           fontSize: 36,
           height: 2.2,
-          fontFamily: 'NotoSansArabic',
+          fontFamily: 'Amiri',
           color: Colors.white,
         ),
       ),

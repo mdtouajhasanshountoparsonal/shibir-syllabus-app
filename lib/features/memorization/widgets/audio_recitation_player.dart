@@ -197,7 +197,6 @@ class AudioRecitationPlayerState extends State<AudioRecitationPlayer> {
             builder: (context, snap) {
               final ps = snap.data;
               return Text(
-                'DBG st=${ps?.processingState.name} play=${ps?.playing} '
                 'dur=${_player.duration?.inMilliseconds} '
                 'pos=${_player.position.inMilliseconds} src=${widget.sources.length}',
                 style: const TextStyle(color: Colors.yellow, fontSize: 9),

@@ -37,6 +37,12 @@ flutter:
           weight: 400
         - asset: assets/fonts/NotoSansBengali-Bold.ttf
           weight: 700
+    - family: Amiri
+      fonts:
+        - asset: assets/fonts/Amiri-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Amiri-Bold.ttf
+          weight: 700
   assets:
     - assets/content/manifest.json
     - assets/content/stages.json
