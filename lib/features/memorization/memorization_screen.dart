@@ -205,7 +205,10 @@ class _MemoCard extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     textAlign: TextAlign.right,
                     style: const TextStyle(
-                        fontSize: 19, height: 1.9, color: Colors.white),
+                        fontSize: 19,
+                        height: 1.9,
+                        fontFamily: 'Amiri',
+                        color: Colors.white),
                   ),
                 ),
               ],
@@ -712,13 +715,16 @@ class _AyahCard extends StatelessWidget {
   final int activeWord;
   final VoidCallback? onPlay;
 
+  static const _arabicStyle = TextStyle(
+      fontSize: 25, height: 2.1, fontFamily: 'Amiri', color: Colors.white);
+
   Widget _arabic() {
     if (!ayah.hasWords) {
       return Text(
         ayah.arabic,
         textAlign: TextAlign.right,
         textDirection: TextDirection.rtl,
-        style: const TextStyle(fontSize: 25, height: 2.1, color: Colors.white),
+        style: _arabicStyle,
       );
     }
     final spans = <TextSpan>[];
@@ -726,8 +732,7 @@ class _AyahCard extends StatelessWidget {
       final highlighted = active && i == activeWord;
       spans.add(TextSpan(
         text: i == ayah.words.length - 1 ? ayah.words[i].arabic : '${ayah.words[i].arabic} ',
-        style: TextStyle(
-          color: Colors.white,
+        style: _arabicStyle.copyWith(
           backgroundColor: highlighted
               ? AppColors.accent.withValues(alpha: 0.45)
               : Colors.transparent,
@@ -737,10 +742,7 @@ class _AyahCard extends StatelessWidget {
     return RichText(
       textAlign: TextAlign.right,
       textDirection: TextDirection.rtl,
-      text: TextSpan(
-        style: const TextStyle(fontSize: 25, height: 2.1, color: Colors.white),
-        children: spans,
-      ),
+      text: TextSpan(style: _arabicStyle, children: spans),
     );
   }
 

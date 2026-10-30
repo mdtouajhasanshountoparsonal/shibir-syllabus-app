@@ -109,13 +109,15 @@ class _ProgressScreenState extends State<ProgressScreen> {
               total: items.length,
             ),
             const SizedBox(height: 18),
-            GridView.count(
+            GridView(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
-              crossAxisCount: 2,
-              mainAxisSpacing: 10,
-              crossAxisSpacing: 10,
-              childAspectRatio: 1.7,
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                mainAxisSpacing: 10,
+                crossAxisSpacing: 10,
+                mainAxisExtent: 116,
+              ),
               children: [
                 StatTile(
                   icon: Icons.timer_outlined,

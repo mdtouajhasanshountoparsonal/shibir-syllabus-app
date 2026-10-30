@@ -15,7 +15,6 @@ import '../quiz/quiz_screen.dart';
 import '../search/search_screen.dart';
 import '../settings/settings_screen.dart';
 import '../quran_learning/widgets/quran_learning_tile.dart';
-import '../quran_learning/widgets/quran_learning_tile.dart';
 import '../syllabus/item_detail_screen.dart';
 import '../syllabus/schedule_screen.dart';
 import '../syllabus/stage_screen.dart';

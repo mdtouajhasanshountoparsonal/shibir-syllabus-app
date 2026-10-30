@@ -189,20 +189,7 @@ class AudioRecitationPlayerState extends State<AudioRecitationPlayer> {
         borderRadius: BorderRadius.circular(18),
         border: Border.all(color: AppColors.border),
       ),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          StreamBuilder<PlayerState>(
-            stream: _player.playerStateStream,
-            builder: (context, snap) {
-              final ps = snap.data;
-              return Text(
-                'dur=${_player.duration?.inMilliseconds} '
-                'pos=${_player.position.inMilliseconds} src=${widget.sources.length}',
-                style: const TextStyle(color: Colors.yellow, fontSize: 9),
-              );
-            },
-          ), _loading
+      child: _loading
           ? const SizedBox(
               height: 40,
               child: Center(
@@ -279,8 +266,6 @@ class AudioRecitationPlayerState extends State<AudioRecitationPlayer> {
                 );
               },
             ),
-        ],
-      ),
     );
   }
 }

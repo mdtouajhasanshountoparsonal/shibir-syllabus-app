@@ -38,6 +38,7 @@ class HiveBoxes {
   static const String progress = 'progress';
   static const String bookProgress = 'book_progress';
   static const String memorization = 'memorization_progress';
+  static const String quranLearning = 'quran_learning_progress';
   static const String content = 'content_cache';
   static const String settings = 'settings';
 }

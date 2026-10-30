@@ -12,6 +12,7 @@ class LocalStore {
   late Box _progress;
   late Box _bookProgress;
   late Box _memorization;
+  late Box _quranLearning;
   late Box _content;
   late Box _settings;
   bool _ready = false;
@@ -24,6 +25,7 @@ class LocalStore {
     _progress = await Hive.openBox(HiveBoxes.progress);
     _bookProgress = await Hive.openBox(HiveBoxes.bookProgress);
     _memorization = await Hive.openBox(HiveBoxes.memorization);
+    _quranLearning = await Hive.openBox(HiveBoxes.quranLearning);
     _content = await Hive.openBox(HiveBoxes.content);
     _settings = await Hive.openBox(HiveBoxes.settings);
     _ready = true;
@@ -150,6 +152,23 @@ class LocalStore {
 
   /// Wipes only user content cache (used by "reset content" in settings).
   Future<void> wipeContentCache() => _content.clear();
+
+  // --- Quran Learning progress --------------------------------------------
+
+  dynamic quranGet(String key) => _quranLearning.get(key);
+
+  Future<void> quranPut(String key, Object? value) =>
+      _quranLearning.put(key, value);
+
+  Future<void> quranDelete(String key) => _quranLearning.delete(key);
+
+  Map<String, dynamic> readAllQuranLearning() {
+    final result = <String, dynamic>{};
+    for (final key in _quranLearning.keys) {
+      result[key.toString()] = _quranLearning.get(key);
+    }
+    return result;
+  }
 
   // --- Recent searches -----------------------------------------------------
 

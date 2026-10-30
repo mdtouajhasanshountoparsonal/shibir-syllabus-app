@@ -1,51 +1,1455 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "letters": [
     {
       "id": "alif",
+      "order": 1,
       "arabic": "ا",
       "nameBn": "আলিফ",
       "nameEn": "Alif",
-      "pronunciationUrl": "https://cdn.example.com/alif.mp3",
-      "forms": ["ا", "ا", "ـا", "ا"],
-      "similarLetters": ["ا"]
+      "pronunciationUrl": "",
+      "dotInfo": "কোনো বিন্দু নেই",
+      "makhraj": "গলার সবচেয়ে নিচ থেকে সরল স্বর",
+      "forms": [
+        "ا",
+        "ـا",
+        "ـا",
+        "ا"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "اَ",
+        "kasra": "اِ",
+        "damma": "اُ",
+        "sukun": "اْ",
+        "shadda": "اّ",
+        "tanween": "اً"
+      },
+      "similarLetters": [
+        "['ل','ك']"
+      ]
     },
     {
       "id": "ba",
+      "order": 2,
       "arabic": "ب",
       "nameBn": "বা",
-      "nameEn": "Ba",
-      "pronunciationUrl": "https://cdn.example.com/ba.mp3",
-      "forms": ["بـ", "ـبـ", "ـب", "ب"],
-      "similarLetters": ["ت", "ث", "ن"]
+      "nameEn": "Bā",
+      "pronunciationUrl": "",
+      "dotInfo": "নিচে একটি বিন্দু",
+      "makhraj": "দুই ঠোঁট মিলিয়ে",
+      "forms": [
+        "بـ",
+        "ـبـ",
+        "ـب",
+        "ب"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "بَ",
+        "kasra": "بِ",
+        "damma": "بُ",
+        "sukun": "بْ",
+        "shadda": "بّ",
+        "tanween": "بً"
+      },
+      "similarLetters": [
+        "ت",
+        "ث",
+        "ن",
+        "ي"
+      ]
     },
     {
       "id": "ta",
-      "arabic": "ت",
+      "order": 3,
+      "arabic": "تَ",
       "nameBn": "তা",
-      "nameEn": "Ta",
-      "pronunciationUrl": "https://cdn.example.com/ta.mp3",
-      "forms": ["تـ", "ـتـ", "ـت", "ت"],
-      "similarLetters": ["ب", "ث", "ن"]
+      "nameEn": "Tā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে দুই বিন্দু",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দুই দাঁতের গোড়ায়",
+      "forms": [
+        "تـ",
+        "ـتـ",
+        "ـت",
+        "ت"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "تََ",
+        "kasra": "تَِ",
+        "damma": "تَُ",
+        "sukun": "تَْ",
+        "shadda": "تَّ",
+        "tanween": "تًَ"
+      },
+      "similarLetters": [
+        "ب",
+        "ث",
+        "ن"
+      ]
     },
     {
       "id": "tha",
+      "order": 4,
       "arabic": "ث",
       "nameBn": "ছা",
-      "nameEn": "Tha",
-      "pronunciationUrl": "https://cdn.example.com/tha.mp3",
-      "forms": ["ثـ", "ـثـ", "ـث", "ث"],
-      "similarLetters": ["ب", "ت", "ن"]
+      "nameEn": "Thā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে তিন বিন্দু",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দুই দাঁতে",
+      "forms": [
+        "ثـ",
+        "ـثـ",
+        "ـث",
+        "ث"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "ثَ",
+        "kasra": "ثِ",
+        "damma": "ثُ",
+        "sukun": "ثْ",
+        "shadda": "ثّ",
+        "tanween": "ثً"
+      },
+      "similarLetters": [
+        "ت",
+        "ب"
+      ]
+    },
+    {
+      "id": "jeem",
+      "order": 5,
+      "arabic": "ج",
+      "nameBn": "জিম",
+      "nameEn": "Jeem",
+      "pronunciationUrl": "",
+      "dotInfo": "ভেতরে একটি বিন্দু",
+      "makhraj": "জিহ্বার মধ্যভাগ তালুতে",
+      "forms": [
+        "جـ",
+        "ـجـ",
+        "ـج",
+        "ج"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "جَ",
+        "kasra": "جِ",
+        "damma": "جُ",
+        "sukun": "جْ",
+        "shadda": "جّ",
+        "tanween": "جً"
+      },
+      "similarLetters": [
+        "ز",
+        "ح",
+        "خ"
+      ]
+    },
+    {
+      "id": "ha",
+      "order": 6,
+      "arabic": "ح",
+      "nameBn": "হা",
+      "nameEn": "Ḥā",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "গলার মধ্যভাগ",
+      "forms": [
+        "حـ",
+        "ـحـ",
+        "ـح",
+        "ح"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "حَ",
+        "kasra": "حِ",
+        "damma": "حُ",
+        "sukun": "حْ",
+        "shadda": "حّ",
+        "tanween": "حً"
+      },
+      "similarLetters": [
+        "خ",
+        "ع",
+        "ه"
+      ]
+    },
+    {
+      "id": "kha",
+      "order": 7,
+      "arabic": "خ",
+      "nameBn": "খা",
+      "nameEn": "Khā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "গলার উপরিভাগ",
+      "forms": [
+        "خـ",
+        "ـخـ",
+        "ـخ",
+        "خ"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "خَ",
+        "kasra": "خِ",
+        "damma": "خُ",
+        "sukun": "خْ",
+        "shadda": "خّ",
+        "tanween": "خً"
+      },
+      "similarLetters": [
+        "ح",
+        "غ"
+      ]
+    },
+    {
+      "id": "dal",
+      "order": 8,
+      "arabic": "د",
+      "nameBn": "দাল",
+      "nameEn": "Dāl",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দুই দাঁতের গোড়ায়",
+      "forms": [
+        "د",
+        "ـد",
+        "ـد",
+        "د"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "دَ",
+        "kasra": "دِ",
+        "damma": "دُ",
+        "sukun": "دْ",
+        "shadda": "دّ",
+        "tanween": "دً"
+      },
+      "similarLetters": [
+        "ذ",
+        "ض"
+      ]
+    },
+    {
+      "id": "dhal",
+      "order": 9,
+      "arabic": "ذ",
+      "nameBn": "যাল",
+      "nameEn": "Dhāl",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দুই দাঁতে",
+      "forms": [
+        "ذ",
+        "ـذ",
+        "ـذ",
+        "ذ"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "ذَ",
+        "kasra": "ذِ",
+        "damma": "ذُ",
+        "sukun": "ذْ",
+        "shadda": "ذّ",
+        "tanween": "ذً"
+      },
+      "similarLetters": [
+        "د",
+        "ظ"
+      ]
+    },
+    {
+      "id": "ra",
+      "order": 10,
+      "arabic": "ر",
+      "nameBn": "রা",
+      "nameEn": "Rā",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার অগ্রভাগ তালুর কাছে",
+      "forms": [
+        "ر",
+        "ـر",
+        "ـر",
+        "ر"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "رَ",
+        "kasra": "رِ",
+        "damma": "رُ",
+        "sukun": "رْ",
+        "shadda": "رّ",
+        "tanween": "رً"
+      },
+      "similarLetters": [
+        "ز",
+        "ل"
+      ]
+    },
+    {
+      "id": "zay",
+      "order": 11,
+      "arabic": "ز",
+      "nameBn": "যা",
+      "nameEn": "Zā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "জিহ্বার অগ্রভাগ নিচের দাঁতে",
+      "forms": [
+        "ز",
+        "ـز",
+        "ـز",
+        "ز"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "زَ",
+        "kasra": "زِ",
+        "damma": "زُ",
+        "sukun": "زْ",
+        "shadda": "زّ",
+        "tanween": "زً"
+      },
+      "similarLetters": [
+        "س",
+        "ش"
+      ]
+    },
+    {
+      "id": "seen",
+      "order": 12,
+      "arabic": "س",
+      "nameBn": "সিন",
+      "nameEn": "Seen",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার অগ্রভাগ নিচের দাঁতে",
+      "forms": [
+        "سـ",
+        "ـسـ",
+        "ـس",
+        "س"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "سَ",
+        "kasra": "سِ",
+        "damma": "سُ",
+        "sukun": "سْ",
+        "shadda": "سّ",
+        "tanween": "سً"
+      },
+      "similarLetters": [
+        "ش",
+        "ص",
+        "ز"
+      ]
+    },
+    {
+      "id": "sheen",
+      "order": 13,
+      "arabic": "ش",
+      "nameBn": "শিন",
+      "nameEn": "Sheen",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে তিন বিন্দু",
+      "makhraj": "জিহ্বার মধ্যভাগ তালুতে",
+      "forms": [
+        "شـ",
+        "ـشـ",
+        "ـش",
+        "ش"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "شَ",
+        "kasra": "شِ",
+        "damma": "شُ",
+        "sukun": "شْ",
+        "shadda": "شّ",
+        "tanween": "شً"
+      },
+      "similarLetters": [
+        "س",
+        "ص",
+        "ز"
+      ]
+    },
+    {
+      "id": "sad",
+      "order": 14,
+      "arabic": "ص",
+      "nameBn": "সাদ",
+      "nameEn": "Ṣād",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার অগ্রভাগ নিচের দাঁতে",
+      "forms": [
+        "صـ",
+        "ـصـ",
+        "ـص",
+        "ص"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "صَ",
+        "kasra": "صِ",
+        "damma": "صُ",
+        "sukun": "صْ",
+        "shadda": "صّ",
+        "tanween": "صً"
+      },
+      "similarLetters": [
+        "س",
+        "ض",
+        "ظ"
+      ]
+    },
+    {
+      "id": "dad",
+      "order": 15,
+      "arabic": "ض",
+      "nameBn": "দাদ",
+      "nameEn": "Ḍād",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "জিহ্বার পাশের প্রান্ত উপরের মাড়িতে",
+      "forms": [
+        "ضـ",
+        "ـضـ",
+        "ـض",
+        "ض"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "ضَ",
+        "kasra": "ضِ",
+        "damma": "ضُ",
+        "sukun": "ضْ",
+        "shadda": "ضّ",
+        "tanween": "ضً"
+      },
+      "similarLetters": [
+        "ص",
+        "ط",
+        "ظ"
+      ]
+    },
+    {
+      "id": "tah",
+      "order": 16,
+      "arabic": "ط",
+      "nameBn": "তা (ভারী)",
+      "nameEn": "Ṭā",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দাঁতের গোড়ায়",
+      "forms": [
+        "طـ",
+        "ـطـ",
+        "ـط",
+        "ط"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "طَ",
+        "kasra": "طِ",
+        "damma": "طُ",
+        "sukun": "طْ",
+        "shadda": "طّ",
+        "tanween": "طً"
+      },
+      "similarLetters": [
+        "ت",
+        "د",
+        "ص"
+      ]
+    },
+    {
+      "id": "zha",
+      "order": 17,
+      "arabic": "ظ",
+      "nameBn": "যা (ভারী)",
+      "nameEn": "Ẓā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "জিহ্বার অগ্রভাগ উপরের দাঁতে",
+      "forms": [
+        "ظـ",
+        "ـظـ",
+        "ـظ",
+        "ظ"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "ظَ",
+        "kasra": "ظِ",
+        "damma": "ظُ",
+        "sukun": "ظْ",
+        "shadda": "ظّ",
+        "tanween": "ظً"
+      },
+      "similarLetters": [
+        "ذ",
+        "ص",
+        "ض"
+      ]
+    },
+    {
+      "id": "ain",
+      "order": 18,
+      "arabic": "ع",
+      "nameBn": "আইন",
+      "nameEn": "ʿAin",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "গলার মধ্যভাগ",
+      "forms": [
+        "عـ",
+        "ـعـ",
+        "ـع",
+        "ع"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "عَ",
+        "kasra": "عِ",
+        "damma": "عُ",
+        "sukun": "عْ",
+        "shadda": "عّ",
+        "tanween": "عً"
+      },
+      "similarLetters": [
+        "ح",
+        "غ"
+      ]
+    },
+    {
+      "id": "ghain",
+      "order": 19,
+      "arabic": "غ",
+      "nameBn": "গাইন",
+      "nameEn": "Ghain",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "গলার উপরিভাগ",
+      "forms": [
+        "غـ",
+        "ـغـ",
+        "ـغ",
+        "غ"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "غَ",
+        "kasra": "غِ",
+        "damma": "غُ",
+        "sukun": "غْ",
+        "shadda": "غّ",
+        "tanween": "غً"
+      },
+      "similarLetters": [
+        "خ",
+        "ع"
+      ]
+    },
+    {
+      "id": "fa",
+      "order": 20,
+      "arabic": "ف",
+      "nameBn": "ফা",
+      "nameEn": "Fā",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "নিচের ঠোঁট উপরের দাঁতে",
+      "forms": [
+        "فـ",
+        "ـفـ",
+        "ـف",
+        "ف"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "فَ",
+        "kasra": "فِ",
+        "damma": "فُ",
+        "sukun": "فْ",
+        "shadda": "فّ",
+        "tanween": "فً"
+      },
+      "similarLetters": [
+        "ب",
+        "ق"
+      ]
+    },
+    {
+      "id": "qaf",
+      "order": 21,
+      "arabic": "ق",
+      "nameBn": "কাফ",
+      "nameEn": "Qāf",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে দুই বিন্দু",
+      "makhraj": "গলার মূল",
+      "forms": [
+        "قـ",
+        "ـقـ",
+        "ـق",
+        "ق"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "قَ",
+        "kasra": "قِ",
+        "damma": "قُ",
+        "sukun": "قْ",
+        "shadda": "قّ",
+        "tanween": "قً"
+      },
+      "similarLetters": [
+        "ك",
+        "ف"
+      ]
+    },
+    {
+      "id": "kaf",
+      "order": 22,
+      "arabic": "ك",
+      "nameBn": "কাফ",
+      "nameEn": "Kāf",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার মধ্যভাগ তালুর কাছে",
+      "forms": [
+        "كـ",
+        "ـكـ",
+        "ـك",
+        "ك"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "كَ",
+        "kasra": "كِ",
+        "damma": "كُ",
+        "sukun": "كْ",
+        "shadda": "كّ",
+        "tanween": "كً"
+      },
+      "similarLetters": [
+        "ق",
+        "ل"
+      ]
+    },
+    {
+      "id": "lam",
+      "order": 23,
+      "arabic": "ل",
+      "nameBn": "লাম",
+      "nameEn": "Lām",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "জিহ্বার প্রান্ত উপরের তালুতে",
+      "forms": [
+        "لـ",
+        "ـلـ",
+        "ـل",
+        "ل"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "لَ",
+        "kasra": "لِ",
+        "damma": "لُ",
+        "sukun": "لْ",
+        "shadda": "لّ",
+        "tanween": "لً"
+      },
+      "similarLetters": [
+        "ر",
+        "ن"
+      ]
+    },
+    {
+      "id": "meem",
+      "order": 24,
+      "arabic": "م",
+      "nameBn": "মিম",
+      "nameEn": "Meem",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "দুই ঠোঁট মিলিয়ে নাক দিয়ে",
+      "forms": [
+        "مـ",
+        "ـمـ",
+        "ـم",
+        "م"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "مَ",
+        "kasra": "مِ",
+        "damma": "مُ",
+        "sukun": "مْ",
+        "shadda": "مّ",
+        "tanween": "مً"
+      },
+      "similarLetters": [
+        "ب",
+        "و",
+        "ن"
+      ]
+    },
+    {
+      "id": "noon",
+      "order": 25,
+      "arabic": "ن",
+      "nameBn": "নুন",
+      "nameEn": "Noon",
+      "pronunciationUrl": "",
+      "dotInfo": "উপরে একটি বিন্দু",
+      "makhraj": "জিহ্বার প্রান্ত তালুতে নাক দিয়ে",
+      "forms": [
+        "نـ",
+        "ـنـ",
+        "ـن",
+        "ن"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "نَ",
+        "kasra": "نِ",
+        "damma": "نُ",
+        "sukun": "نْ",
+        "shadda": "نّ",
+        "tanween": "نً"
+      },
+      "similarLetters": [
+        "ب",
+        "ت",
+        "ث"
+      ]
+    },
+    {
+      "id": "haa",
+      "order": 26,
+      "arabic": "ه",
+      "nameBn": "হা",
+      "nameEn": "Hā",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "গলার নিম্নভাগ",
+      "forms": [
+        "هـ",
+        "ـهـ",
+        "ـه",
+        "ه"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "هَ",
+        "kasra": "هِ",
+        "damma": "هُ",
+        "sukun": "هْ",
+        "shadda": "هّ",
+        "tanween": "هً"
+      },
+      "similarLetters": [
+        "ح",
+        "ع"
+      ]
+    },
+    {
+      "id": "waw",
+      "order": 27,
+      "arabic": "و",
+      "nameBn": "ওয়াও",
+      "nameEn": "Wāw",
+      "pronunciationUrl": "",
+      "dotInfo": "বিন্দু নেই",
+      "makhraj": "দুই ঠোঁট গোল করে",
+      "forms": [
+        "و",
+        "ـو",
+        "ـو",
+        "و"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "وَ",
+        "kasra": "وِ",
+        "damma": "وُ",
+        "sukun": "وْ",
+        "shadda": "وّ",
+        "tanween": "وً"
+      },
+      "similarLetters": [
+        "ي",
+        "ا"
+      ]
+    },
+    {
+      "id": "ya",
+      "order": 28,
+      "arabic": "ي",
+      "nameBn": "ইয়া",
+      "nameEn": "Yā",
+      "pronunciationUrl": "",
+      "dotInfo": "নিচে দুই বিন্দু",
+      "makhraj": "জিহ্বার মধ্যভাগ তালুতে",
+      "forms": [
+        "يـ",
+        "ـيـ",
+        "ـي",
+        "ي"
+      ],
+      "formLabels": [
+        "শুরু",
+        "মাঝে",
+        "শেষ",
+        "আলাদা"
+      ],
+      "harakat": {
+        "fatha": "يَ",
+        "kasra": "يِ",
+        "damma": "يُ",
+        "sukun": "يْ",
+        "shadda": "يّ",
+        "tanween": "يً"
+      },
+      "similarLetters": [
+        "ب",
+        "ت",
+        "ث",
+        "ن"
+      ]
     }
   ],
-  "lessons": [
+  "levels": [
     {
-      "id": "level01",
-      "titleBn": "Level 01 — আরবি হরফ পরিচিতি",
-      "level": "beginner",
-      "descriptionBn": "ا থেকে ي পর্যন্ত হরফ চেনা, নাম, আকৃতি ও উচ্চারণ",
-      "letterIds": ["alif", "ba", "ta", "tha"],
-      "icon": "abc"
+      "id": "level_1",
+      "order": 1,
+      "titleBn": "আরবি হরফ পরিচিতি",
+      "subtitleBn": "ا ব ت ث থেকে ي পর্যন্ত হরফ চেনা, নাম, আকৃতি ও উচ্চারণ",
+      "badge": "Beginner",
+      "color": 4294961979,
+      "goals": [
+        "২৮টি হরফ চিনতে পারা",
+        "প্রতিটি হরফের নাম ও বিন্দুর অবস্থান জানা",
+        "হরফের মূল উচ্চারণস্থান (মাখরাজ) বোঝা"
+      ],
+      "lessons": [
+        {
+          "id": "l1_1",
+          "titleBn": "হরফ ১–৭",
+          "subtitleBn": "ا ب ت ث ج ح خ",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha"
+          ]
+        },
+        {
+          "id": "l1_2",
+          "titleBn": "হরফ ৮–১৪",
+          "subtitleBn": "د ذ ر ز س ش ص",
+          "letterIds": [
+            "dal",
+            "dhal",
+            "ra",
+            "zay",
+            "seen",
+            "sheen",
+            "sad"
+          ]
+        },
+        {
+          "id": "l1_3",
+          "titleBn": "হরফ ১৫–২১",
+          "subtitleBn": "ض ط ظ ع غ ف ق",
+          "letterIds": [
+            "dad",
+            "tah",
+            "zha",
+            "ain",
+            "ghain",
+            "fa",
+            "qaf"
+          ]
+        },
+        {
+          "id": "l1_4",
+          "titleBn": "হরফ ২২–২৮",
+          "subtitleBn": "ك ل م ن ه و ي",
+          "letterIds": [
+            "kaf",
+            "lam",
+            "meem",
+            "noon",
+            "haa",
+            "waw",
+            "ya"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_2",
+      "order": 2,
+      "titleBn": "হরকত ও ছোট পাঠ",
+      "subtitleBn": "ফাতহা, কাসরা, দাম্মা, তানভীন ও সুকুনসহ পড়া",
+      "badge": "Basic",
+      "color": 4293077,
+      "goals": [
+        "ফাতহা/যবর পড়া",
+        "কাসরা/যের পড়া",
+        "দাম্মা/পেশ পড়া",
+        "তানভীন, সুকুন ও শাদ্দাহ চেনা"
+      ],
+      "lessons": [
+        {
+          "id": "l2_1",
+          "titleBn": "ফাতহা (যবর)",
+          "subtitleBn": "بَ تَ ثَ — ‘আ’ স্বর",
+          "letterIds": [
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha"
+          ]
+        },
+        {
+          "id": "l2_2",
+          "titleBn": "কাসরা (যের)",
+          "subtitleBn": "بِ تِ ثِ — ‘ই’ স্বর",
+          "letterIds": [
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha"
+          ]
+        },
+        {
+          "id": "l2_3",
+          "titleBn": "দাম্মা (পেশ)",
+          "subtitleBn": "بُ تُ ثُ — ‘উ’ স্বর",
+          "letterIds": [
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha"
+          ]
+        },
+        {
+          "id": "l2_4",
+          "titleBn": "তানভীন, সুকুন ও শাদ্দাহ",
+          "subtitleBn": "ً ْ ّ — উচ্চারণের নিয়ম",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal",
+            "dhal",
+            "ra",
+            "zay",
+            "seen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_3",
+      "order": 3,
+      "titleBn": "হরফ জোড়া ও শব্দ তৈরি",
+      "subtitleBn": "শুরু, মাঝ ও শেষে হরফের পরিবর্তিত আকৃতি; যুক্ত শব্দ পড়া",
+      "badge": "Intermediate",
+      "color": 4287462239,
+      "goals": [
+        "হরফের শুরু/মাঝ/শেষ রূপ চেনা",
+        "দুই হরফ জোড়া লাগিয়ে পড়া",
+        "পূর্ণ আরবি শব্দ পড়া"
+      ],
+      "lessons": [
+        {
+          "id": "l3_1",
+          "titleBn": "হরফের তিন আকৃতি",
+          "subtitleBn": "بـ ـبـ ـب",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal",
+            "dhal",
+            "ra",
+            "zay",
+            "seen",
+            "sheen",
+            "sad",
+            "dad",
+            "tah",
+            "zha",
+            "ain",
+            "ghain",
+            "fa",
+            "qaf",
+            "kaf",
+            "lam",
+            "meem",
+            "noon",
+            "haa",
+            "waw",
+            "ya"
+          ]
+        },
+        {
+          "id": "l3_2",
+          "titleBn": "দুই হরফের সংযোগ",
+          "subtitleBn": "بَ + تَ = بَتَ",
+          "letterIds": [
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal",
+            "dhal",
+            "ra",
+            "zay",
+            "seen",
+            "sheen"
+          ]
+        },
+        {
+          "id": "l3_3",
+          "titleBn": "শব্দ পড়া",
+          "subtitleBn": "بَيْت، كَتَبَ, قَلَم",
+          "letterIds": [
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal",
+            "dhal",
+            "ra",
+            "zay",
+            "seen",
+            "sheen",
+            "sad",
+            "dad",
+            "tah",
+            "zha",
+            "ain",
+            "ghain",
+            "fa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_4",
+      "order": 4,
+      "titleBn": "কুরআনের শব্দ ও আয়াত",
+      "subtitleBn": "মাদ, শাদ্দাহ, সুকুন, তানভীন, হামযা, ওয়াকফ ও তাজবিদ",
+      "badge": "Advanced",
+      "color": 4282216495,
+      "goals": [
+        "মাদ ও দীর্ঘ স্বর চেনা",
+        "শাদ্দাহ ও সুকুনের নিয়ম",
+        "সাধারণ তাজবিদ বোঝা",
+        "ছোট আয়াত পড়া"
+      ],
+      "lessons": [
+        {
+          "id": "l4_1",
+          "titleBn": "মাদ (দীর্ঘ স্বর)",
+          "subtitleBn": " ا و ي — ২ হারকত দীর্ঘ",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "و",
+            "ي"
+          ]
+        },
+        {
+          "id": "l4_2",
+          "titleBn": "সুকুন ও শাদ্দাহ",
+          "subtitleBn": " ْ ّ — টান ও যুক্ত স্বর",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal",
+            "dhal",
+            "ra"
+          ]
+        },
+        {
+          "id": "l4_3",
+          "titleBn": "ছোট আয়াত পড়া",
+          "subtitleBn": "সূরা আল-ফাতিহা ১:১–৭",
+          "letterIds": [
+            "alif",
+            "ba",
+            "ta",
+            "tha",
+            "jeem",
+            "ha",
+            "kha",
+            "dal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level_5",
+      "order": 5,
+      "titleBn": "সম্পূর্ণ কুরআন পড়ার অনুশীলন",
+      "subtitleBn": "ছোট সূরা থেকে ধাপে ধাপে পূর্ণ মুসহাফ পড়া",
+      "badge": "Final Goal",
+      "color": 4288417644,
+      "goals": [
+        "ছোট সূরা ধরে পড়া",
+        "নিজের ভুলের শব্দে ফিরে অনুশীলন",
+        "১১৪টি সূরা ধরে অগ্রগতি ধরা"
+      ],
+      "lessons": [
+        {
+          "id": "l5_1",
+          "titleBn": "ছোট সূরা",
+          "subtitleBn": "আল-ফাতিহা, আল-আসর, আল-ইখলাস",
+          "letterIds": []
+        },
+        {
+          "id": "l5_2",
+          "titleBn": "জুয আম্মা",
+          "subtitleBn": "৩০তম পারার ছোট সূরা",
+          "letterIds": []
+        },
+        {
+          "id": "l5_5",
+          "titleBn": "সম্পূর্ণ মুসহাফ",
+          "subtitleBn": "১১৪টি সূরার ট্র্যাকার",
+          "letterIds": []
+        }
+      ]
+    }
+  ],
+  "words": [
+    {
+      "id": "w_kutub",
+      "arabic": "كُتُب",
+      "parts": [
+        "كُ",
+        "تُ",
+        "ب"
+      ],
+      "nameBn": "কুতুব (বইসমূহ)",
+      "surah": ""
+    },
+    {
+      "id": "w_kitab",
+      "arabic": "كِتَاب",
+      "parts": [
+        "كِ",
+        "تَ",
+        "ا",
+        "ب"
+      ],
+      "nameBn": "কিতাব (বই)",
+      "surah": ""
+    },
+    {
+      "id": "w_qalam",
+      "arabic": "قَلَم",
+      "parts": [
+        "قَ",
+        "لَ",
+        "م"
+      ],
+      "nameBn": "কলম",
+      "surah": ""
+    },
+    {
+      "id": "w_nur",
+      "arabic": "نُور",
+      "parts": [
+        "نُ",
+        "و",
+        "ر"
+      ],
+      "nameBn": "নূর (আলো)",
+      "surah": ""
+    },
+    {
+      "id": "w_ilm",
+      "arabic": "عِلْم",
+      "parts": [
+        "عِ",
+        "لْ",
+        "م"
+      ],
+      "nameBn": "ইলম (জ্ঞান)",
+      "surah": ""
+    },
+    {
+      "id": "w_salam",
+      "arabic": "سَلَام",
+      "parts": [
+        "سَ",
+        "لَ",
+        "ا",
+        "م"
+      ],
+      "nameBn": "সালাম (শান্তি)",
+      "surah": ""
+    }
+  ],
+  "ayahs": [
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 1,
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ",
+      "words": [
+        "بِسْمِ",
+        "اللَّهِ",
+        "الرَّحْمَٰنِ",
+        "الرَّحِيمِ"
+      ],
+      "meaning": "পরম করুণাময় অসীম দয়ালু আল্লাহর নামে"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 2,
+      "arabic": "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "words": [
+        "الْحَمْدُ",
+        "لِلَّهِ",
+        "رَبِّ",
+        "الْعَالَمِينَ"
+      ],
+      "meaning": "সকল প্রশংসা আল্লাহর, যিনি সমস্ত জগতের রব"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 3,
+      "arabic": "الرَّحْمَٰنِ الرَّحِيمِ",
+      "words": [
+        "الرَّحْمَٰنِ",
+        "الرَّحِيمِ"
+      ],
+      "meaning": "পরম করুণাময়, অসীম দয়ালু"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 4,
+      "arabic": "مَالِكِ يَوْمِ الدِّينِ",
+      "words": [
+        "مَالِكِ",
+        "يَوْمِ",
+        "الدِّينِ"
+      ],
+      "meaning": "বিচার দিনের মালিক"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 5,
+      "arabic": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "words": [
+        "إِيَّاكَ",
+        "نَعْبُدُ",
+        "وَإِيَّاكَ",
+        "نَسْتَعِينُ"
+      ],
+      "meaning": "কেবল তোমারই ইবাদত করি, কেবল তোমারই সাহায্য চাই"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 6,
+      "arabic": "اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ",
+      "words": [
+        "اهْدِنَا",
+        "الصِّرَاطَ",
+        "الْمُسْتَقِيمَ"
+      ],
+      "meaning": "আমাদের সরল পথ দেখাও"
+    },
+    {
+      "surah": "আল-ফাতিহা",
+      "number": 7,
+      "arabic": "صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ",
+      "words": [
+        "صِرَاطَ",
+        "الَّذِينَ",
+        "أَنْعَمْتَ",
+        "عَلَيْهِمْ"
+      ],
+      "meaning": "তাদের পথ, যাদের প্রতি তুমি অনুগ্রহ করেছ"
     }
   ]
 }
